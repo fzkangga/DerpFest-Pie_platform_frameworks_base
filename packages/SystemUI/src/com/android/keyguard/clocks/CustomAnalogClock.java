@@ -312,7 +312,7 @@ public class CustomAnalogClock extends View {
         }
     }
 
-    private void onTimeChanged() {
+    public void onTimeChanged() {
         mCalendar.setToNow();
 
         int hour = mCalendar.hour;
